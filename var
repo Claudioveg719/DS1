@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+int contador=0;
+int turma=0;
+printf("qual o numero de alunos");
+
+scanf("%d", &turma);
+int var[turma];
+
+    var[0]=11;
+    var[1]=22;
+    var[2]=33;
+printf("%d",var[0]);
+printf("%d",var[1]);
+printf("%d",var[2]);
+}
